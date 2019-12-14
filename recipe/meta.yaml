@@ -1,5 +1,5 @@
 {% set name = "knotifyconfig" %}
-{% set version = "5.64.0" %}
+{% set version = "5.65.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/knotifyconfig-{{ version }}.tar.xz
-  sha256: f496ed0728e688347da360f7aad7f2666cb0310ab669c6006ce9661233218b27
+  sha256: a0eb8a27b545d7cc9c61bef6630b9f6d68da76e49c2c8ac8b4ae03d8f89b1e54
 
 build:
   number: 0
