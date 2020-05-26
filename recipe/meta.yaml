@@ -22,7 +22,7 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
-    - extra-cmake-modules
+    - extra-cmake-modules >={{ major_minor }}
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
     - {{ cdt('mesa-dri-drivers') }}  # [linux]
     - {{ cdt('libselinux') }}  # [linux]
@@ -33,10 +33,10 @@ requirements:
     - xorg-libxext
     - qt
     - phonon
-    - kio
-    - ki18n
-    - kconfig
-    - kcompletion
+    - kio >={{ major_minor }}
+    - ki18n >={{ major_minor }}
+    - kconfig >={{ major_minor }}
+    - kcompletion >={{ major_minor }}
 
 test:
   commands:
