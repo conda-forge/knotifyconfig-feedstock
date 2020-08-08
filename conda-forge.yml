@@ -1,7 +1,4 @@
-travis:
-  secure:
-    BINSTAR_TOKEN: rQoqRe/Nmd8alAlcZMJ1fBeCNswjfPIqkP115LsEH3D95o5LjAHu8m6rNO2BEC11xxWDCCT9JthVvx7DSfzIuliF7Itqe+1VeT6UrhERWSrW6JEk/axN+0a21ENj/8/XEVrBw2GcFVWkmTOw1Bo9HCon9o6TJ+1x6BJH+atsqKWDFXHk5zU65dKZDsWUdbuVs0+hrjLq+/ZuZnFAnx1epVMRyLydhO7KjVbyTkuSWJ9raX8B/vbf0oU+unoNN9JRe1VFcK/Fq6Wkf85vjzTmeBwOgbt/ouuskJzdH+XWWKnV31Hp6rslVz/GB1DytKJkiZzk1cT2Mj5/cjfu9g/CFNo8511zO45CBDxaSBOznyfA1J+x/qyF6hQt/kNbz2H1v3RgiWXDc5FvbMEMlxD8B+ZGeQQjbfwqKLkYh3mx2xBoSEZlzEeC6f9bAuZEY/GKQMDPTAg24iV6KjCwivBWWPMJb8plMFbcwMGfOykZ3VsM/HgCxOT1FNe2P3Q1bC+3RVrYfTzCIYyTJAi7MCZAdzeXGcaMIDCoPaP+cQEcJ7u3rV0hez7STSCr970/cXsY8couMQIY9mcTKc/zxk4dZS9/kAl5FnOWT3if+8lW5qbCTka9r3hmxYW+7v87mjmTPlGduQEIUcjTXtvLVj/oHUUkdCO+2XPoKNKuc6JV/z8=
 conda_forge_output_validation: true
 bot:
-  check_solvable: True
-  
+  check_solvable: true
+
