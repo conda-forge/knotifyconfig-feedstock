@@ -1,5 +1,5 @@
 {% set name = "knotifyconfig" %}
-{% set version = "5.73.0" %}
+{% set version = "5.74.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/knotifyconfig-{{ version }}.tar.xz
-  sha256: 641a167a58856e99036d44b3e7472b44cdfbbf68e5d75b9af988d0b71dc10af4
+  sha256: 8586b39c621068ef31e74884e20cc061577ae8bec50e6e75c88e9bcab46d8e55
 
 build:
   number: 0
@@ -44,9 +44,9 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/knotifyconfig/html/index.html
-  license: LGPL-v2.1-or-later
-  license_family: GPL
-  license_file: COPYING.LIB
+  license: LGPL-2.0-only
+  license_family: LGPL
+  license_file: LICENSES/LGPL-2.0-only.txt
   summary: Configuration dialog for desktop notifications
   description: |
     KNotifyConfig provides a configuration dialog for desktop notifications
