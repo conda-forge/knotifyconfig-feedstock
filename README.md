@@ -3,11 +3,13 @@ About knotifyconfig
 
 Home: https://api.kde.org/frameworks/knotifyconfig/html/index.html
 
-Package license: LGPL-v2.1-or-later
+Package license: LGPL-2.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/knotifyconfig-feedstock/blob/master/LICENSE.txt)
 
 Summary: Configuration dialog for desktop notifications
+
+Development: https://cgit.kde.org/knotifyconfig.git/tree
 
 KNotifyConfig provides a configuration dialog for desktop notifications
 which can be embedded in your application.
